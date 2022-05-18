@@ -1,7 +1,7 @@
-$white: #fefdfc;
+$white: #ff0000;
 $black: #050505;
-$colorPrimary: #8547ca;
-$btnColor:#8c60bd;
+$colorPrimary: #ca4747;
+$btnColor:#bd6060;
 
 @mixin main-font {
   font-family: 'Raleway', sans-serif;
@@ -101,7 +101,7 @@ body {
   height: 100vh;
   position: relative;
   background: linear-gradient(to right,
-      #f2f7fd 50%,
+      #ff0000 50%,
       #1d1e31 45%,
 
     );
@@ -128,7 +128,7 @@ body {
 
 .custom_nav-container.navbar-expand-lg .navbar-nav .nav-link {
   padding: 0px 25px;
-  color: #fefeff;
+  color: #fd0707;
   text-align: center;
   font-family: "Roboto", sans-serif;
 }
@@ -641,11 +641,11 @@ a:focus {
 /* contact section */
 
 .contact_section {
-  background-color: #f2f7fd;
+  background-color: #fd0000;
 
   h2 {
     font-size: 26px;
-    color: #010103;
+    color: #ee0606;
     font-weight: 600;
     font-family: 'Raleway', sans-serif;
     margin-bottom: 35px;
@@ -661,7 +661,7 @@ a:focus {
 .contact_section input {
   border: none;
   outline: none;
-  border-bottom: 1px solid #000;
+  border-bottom: 1px solid rgb(255, 0, 0);
   width: 90%;
   margin: 15px 0;
   background-color: transparent;
@@ -699,8 +699,8 @@ a:focus {
 /* end contact section */
 /* info section */
 .info_section {
-  background-color: #363636;
-  color: #ffffff;
+  background-color: #440000;
+  color: #fd0404;
   font-family: 'Poppins', sans-serif;
 
   h5 {
@@ -731,7 +731,7 @@ a:focus {
       margin: 3px 0;
 
       a {
-        color: #ffffff;
+        color: #ff0808;
 
         &:hover {
           color: $colorPrimary;
