@@ -436,15 +436,15 @@ a:focus {
 .feature_section a {
   display: inline-block;
   padding: 10px 40px;
-  background-color: #de369d;
-  color: #ffe5fd;
+  background-color: #ffe5fd;
+  color: #de369d;
   border-radius: 0;
   border: 1px solid #de369d;
 }
 /*# sourceMappingURL=style.css.map */
 .feature_section a:hover {
   background-color: transparent;
-  color: #8c60bd;
+  color: #ffe5fd;
 }
 
 .download_section {
