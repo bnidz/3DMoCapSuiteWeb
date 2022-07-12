@@ -439,7 +439,7 @@ a:focus {
   background-color: #ffe5fd;
   color: #de369d;
   border-radius: 0;
-  border: 1px solid #de369d;
+  border: 1px solid #de369d; 
 }
 /*# sourceMappingURL=style.css.map */
 .feature_section a:hover {
