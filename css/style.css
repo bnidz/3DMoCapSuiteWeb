@@ -610,10 +610,10 @@ a:focus {
 .subscribe_section form input {
   width: 69%;
   height: 50px;
-  border: none;
+  border: 1px;
   padding-left: 15px;
   -webkit-box-shadow: 0px 0px 12px 0px #ff8cc6;
-  box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.12);
+  box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.22);
 }
 /*# sourceMappingURL=style.css.map */
 .subscribe_section form button {
