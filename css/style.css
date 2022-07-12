@@ -69,7 +69,7 @@ body {
     color-stop(50%, #00ff95),
     color-stop(45%, #003cff)
   );
-  background: linear-gradient(to right, #feeeff 50%, #de369d 45%);
+  background: linear-gradient(to right, #de369d 50%, #feeeff 45%);
 }
 
 .sub_page .hero_area {
