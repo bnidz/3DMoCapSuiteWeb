@@ -1,7 +1,7 @@
 body {
   font-family: "Raleway", sans-serif;
   color: #ff8cc6;
-  background-color: #feeeff;
+  background-color: #efe3ff;
 }
 
 .layout_margin {
@@ -69,7 +69,7 @@ body {
     color-stop(50%, #00ff95),
     color-stop(45%, #003cff)
   );
-  background: linear-gradient(to right, #de369d 50%, #feeeff 45%);
+  background: linear-gradient(to right, #de369d 50%, #ffffff 45%);
 }
 
 .sub_page .hero_area {
@@ -311,7 +311,7 @@ a:focus {
   display: inline-block;
   padding: 10px 60px;
   background-color: #de369d;
-  color: #ffe5fd;
+  color: #feeeff;
   border-radius: 0;
   border: 1px solid #de369d;
   text-transform: uppercase;
