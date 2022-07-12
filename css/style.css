@@ -44,7 +44,7 @@ body {
   content: "";
   width: 100px;
   height: 1px;
-  background-color: #feeeff;
+  background-color: #ffffff;
   position: absolute;
   left: 50%;
   -webkit-transform: translateX(-50%);
