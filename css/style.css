@@ -1,7 +1,7 @@
 body {
   font-family: "Raleway", sans-serif;
   color: #ff8cc6;
-  background-color: #FEEEFF;
+  background-color: #feeeff;
 }
 
 .layout_margin {
@@ -311,7 +311,7 @@ a:focus {
   display: inline-block;
   padding: 10px 60px;
   background-color: #de369d;
-  color: #feeeff;
+  color: #ffe5fd;
   border-radius: 0;
   border: 1px solid #de369d;
   text-transform: uppercase;
@@ -439,7 +439,7 @@ a:focus {
   background-color: #ffe5fd;
   color: #de369d;
   border-radius: 0;
-  border: 1px solid #de369d; 
+  border: 1px solid #de369d;
 }
 /*# sourceMappingURL=style.css.map */
 .feature_section a:hover {
