@@ -39,7 +39,45 @@ body {
   position: relative;
   padding-bottom: 10px;
 }
+
+
+.webcam_container {
+  padding-top: 50px;
+  position: relative;
+  text-align: center;
+  
+}
+.webtrack_ui_container {
+  position: relative;
+  text-align: center;
+  font-weight: bolder;
+  
+}
+
+.output_canvas_pose {
+  position: relative;
+  text-align: center;
+  /* -webkit-transform: scaleX(-1);
+  transform: scaleX(-1); */
+  background-image: url('webcamtrack.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* .videoElement_pose {
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+} */
+
 /*#  some sort of h2*/
+.camera-dropdown_pose {
+  /* font-weight: bold; */
+  /* color: #7e0e46; */
+
+  /* text-align: left; */
+  position: relative;
+  padding-bottom: 10px;
+}
+
 .heading_container h2::before {
   content: "";
   width: 100px;

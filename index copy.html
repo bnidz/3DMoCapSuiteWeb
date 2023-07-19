@@ -151,30 +151,50 @@
       </div>
     </section>
     <body>
-      <div class="heading_container">
-        <h2>
-          Full-Body WebCam Tracking
-        </h2>
-
-
-      </div>
-      <div class="webcam_container">
-        <canvas class="output_canvas_pose" width="426px" height="240px">
-          <video autoplay="true" class="videoElement_pose" id="videoElement_pose"></video></canvas>
-        </div>
-        
-      <div class="webtrack_ui_container">
-      <p> Use Wifi IP!</p>
-      <p>example 123.123.23.3:4103</p>
-      <input class="ip-input" type="text" placeholder="IP from App here!">
-      <button class="start-button-pose">START</button>
-      <p></p>
-      <!-- <select class="camera-dropdown_pose" id="camera-dropdown_pose"></select> -->
+      <!-- <div id="videoDiv"> -->
+        <!-- </div> -->
+        <div class="container">
+          <!-- <video class="input_video"width="426px" height="240px"></video> -->
+          <canvas class="output_canvas_pose" width="426px" height="240px">  
+          <video autoplay="true" id="videoElement_pose"></video>
+        </canvas>
+        <!-- <div class="landmark-grid-container"></div> -->
+      <!-- </div> -->
+      <!-- <div> -->
+        <!-- </script> -->
+        <select class="camera-dropdown_pose" id="camera-dropdown_pose">
+          <!-- Add more camera options if needed -->
+        </select>
+        <p>Full Body Pose Feed</p>
+        <p>78.27.86.5:4103</p>
+        <input class="ip-input" type="text" placeholder="78.27.86.5:4103">
+        <button class="start-button-pose">Start Pose</button>
+        <!-- <video class="input_video"></video> -->
+        <!-- <div class="landmark-grid-container"></div> -->
       </div>
     </body>
+    <!-- <div class="container"> -->
+      <!-- <video autoplay="true" id="videoElement_hands"></video> -->
+      <!-- <video class="input_video"width="426px" height="240px"></video> -->
+      <!-- <canvas class="output_canvas_hands" width="426px" height="240px"></canvas> -->
+      <!-- <div class="landmark-grid-container"></div> -->
+    <!-- </div> -->
+    <!-- <div> -->
+      <!-- </script> -->
+      <!-- <select class="camera-dropdown_hands" id="camera-dropdown_hands"> -->
+        <!-- Add more camera options if needed -->
+      <!-- </select> -->
+      <!-- <p>Hands Track Video Feed</p> -->
+      <!-- <button class="start-button-hands">Start Hands</button> -->
+      <!-- <video class="input_video"></video> -->
+      <!-- <div class="landmark-grid-container"></div> -->
+    <!-- </div> -->
+
+    <!-- end contact section -->
+    <!-- subscribe section -->
     <section class="subscribe_section layout_padding">
-      <!-- <div class="container"> -->
-        <!-- <div class="heading_container">
+      <div class="container">
+        <div class="heading_container">
           <h2>
             Never miss out!
           </h2>
@@ -204,7 +224,7 @@
     id="mc-embedded-subscribe"
     class="button"
 
-  >subscribe</button>   -->
+  >subscribe</button>  
 
    <div style="position: absolute; left: -5000px;" aria-hidden="true">
         <input
@@ -216,8 +236,10 @@
       </div>
         </form>
       </div>
+
       <div class="container">
           <div class="clear foot">
+  
             <div id="mce-responses" class="clear foot">
                 <div
                   class="response"
@@ -395,8 +417,6 @@
         .classList.toggle("menu_btn-style");
     }
   </script>
-<script>
-</script>
   </body>
   <script src="main.js"></script>
 </html>
