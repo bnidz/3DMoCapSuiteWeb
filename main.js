@@ -94,22 +94,23 @@ document.querySelector('.start-button-pose').addEventListener('click', () => {
     socket_hands.close();
     isConnected = false;
     updateButtonText(); // Update button text
-
   } else {
-  socket_pose = new WebSocket('ws://' + document.querySelector('.ip-input').value + '/pose');
-  socket_pose.onmessage = function(e) {
-    socket_onmessage_callback(e.data);
-  }
-  socket_pose.onopen = function() {
-    isConnected = true;
-    updateButtonText(); // Update button text
+    const wsProtocol = location.protocol === 'https:' ? 'wss://' : 'ws://';
+    const serverAddress = document.querySelector('.ip-input').value;
 
-  };
+    socket_pose = new WebSocket(wsProtocol + serverAddress + '/pose');
+    socket_pose.onmessage = function(e) {
+      socket_onmessage_callback(e.data);
+    }
+    socket_pose.onopen = function() {
+      isConnected = true;
+      updateButtonText(); // Update button text
+    };
   
-  socket_hands = new WebSocket('ws://' + document.querySelector('.ip-input').value + '/hands');
-  socket_hands.onmessage = function(e) {
-    socket_onmessage_callback(e.data);
-  }
+    socket_hands = new WebSocket(wsProtocol + serverAddress + '/hands');
+    socket_hands.onmessage = function(e) {
+      socket_onmessage_callback(e.data);
+    }
   socket_hands.onopen = function() {
     isConnected = true;
   };
